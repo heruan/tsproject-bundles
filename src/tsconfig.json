@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "es6",
+        "declaration": false,
+        "diagnostics": true,
+        "listFiles": false,
+        "noImplicitAny": false,
+        "preserveConstEnums": true,
+        "removeComments": false,
+        "sourceMap": false,
+        "noEmit": false
+    },
+    "files": [
+        "./bar.ts",
+        "./foo.ts",
+        "./index.ts"
+    ],
+    "bundles": {
+        "foobar": {
+            "files": [ "./index.ts" ],
+            "config": {
+                "package": "library",
+                "packageNamespace": "foobar",
+                "outDir": "./bundles",
+                "declaration": true
+            }
+        }
+    }
+}

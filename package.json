@@ -1,0 +1,27 @@
+{
+  "name": "tsproject-bundles",
+  "version": "0.1.0",
+  "description": "Testing tsproject with bundles.",
+  "homepage": "https://github.com/heruan/tsproject-bundles",
+  "bugs": "https://github.com/heruan/tsproject-bundles/issues",
+  "main": "./tsproject.min.js",
+  "typings": "./tsproject.d.ts",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-rimraf": "~0.2.0",
+    "require-dir": "^0.3.0",
+    "run-sequence": "^1.1.5",
+    "tsproject": "~1.2.0",
+    "typescript": "~1.8.2",
+    "vinyl-paths": "^2.1.0"
+  },
+  "scripts": {},
+  "keywords": [],
+  "author": "Giovanni Lovato <heruan@aldu.net>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heruan/tsproject-bundles.git"
+  }
+}
